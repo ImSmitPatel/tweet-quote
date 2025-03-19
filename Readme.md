@@ -27,6 +27,8 @@ A simple web application that fetches and displays random quotes with the abilit
 
 ## Live Demo
 
+- [Live Demo](https://tweet-quote-iamsmitpatel.netlify.app/)
+
 ## How It Works
 
 1. Click the **New Quote** button to fetch a random quote.
