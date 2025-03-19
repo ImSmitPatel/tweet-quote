@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make it a Quote</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./images/logo-1.png" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="tweet-wrap">
+        <div class="tweet">
+            <div class="tweet-header-wrap">
+                <div class="tweet-header">
+                    <img src="./images/logo-1.png" alt="" class="avator">
+                    <div class="user">
+                        <p class="name">Make it a Quote <img src="./images/x_verified_badge.png" height="15px"
+                                alt="verified user"></p>
+                        <p class="username">@ImSmitPatel</p>
+                    </div>
+                </div>
+                <div class="twitter-logo">
+                    <img src="./images/x-logo.png">
+                </div>
+            </div>
+            <div class="tweet-content" id="quote-container">
+                <p id="quote-text">Fetching quote...</p>
+                <p id="quote-author"></p>
+            </div>
+        </div>
+        <div class="tweet-controls">
+
+            <button id="new-quote"><img src="./images/random.jpg" alt="New Quote" height="20px"></button>
+            <button id="copy-quote"><img src="./images/copy.png" alt="New Quote" height="20px"></button>
+            <button id="share-twitter"><img src="./images/share.png" alt="New Quote" height="20px"></button>
+            <button id="export-quote"><img src="./images/download.png" alt="New Quote" height="20px"></button>
+
+        </div>
+    </div>
+
+    <div class="made-by">
+        <h3>Made with ❤️ by <a href="https://github.com/imsmitpatel" target="_blank">Smit Patel</a></h3>
+        <a href="https://github.com/ImSmitPatel/mood-tracker" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github-icon" height="40px">
+        </a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
