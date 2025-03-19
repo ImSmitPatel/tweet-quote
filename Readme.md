@@ -25,17 +25,7 @@ A simple web application that fetches and displays random quotes with the abilit
 
 - [Free API](https://api.freeapi.app/api/v1/public/quotes/quote/random)
 
-## Installation & Setup
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/make-it-a-quote.git
-   ```
-2. Navigate to the project folder:
-   ```bash
-   cd make-it-a-quote
-   ```
-3. Open `index.html` in your browser.
+## Live Demo
 
 ## How It Works
 
